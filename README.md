@@ -1,15 +1,5 @@
 # Thiết kế cơ sở dữ liệu cho cửa hàng kinh doanh món ăn online
 
-## Thông tin sinh viên
-
-**Tên:** Lại Xuân Hiếu
-
-**Mã sinh viên:** B22DCCN309
-
-**Lớp:** D22CQCN09-B
-
----
-
 ## Mục lục
 
 1.  [Mô tả bài toán](#1-mô-tả-bài-toán)

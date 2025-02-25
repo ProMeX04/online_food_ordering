@@ -560,14 +560,14 @@ WHERE orders.id = @order_id;
 
 **Kết quả:**
 
-| name    | quantity | price_at_time |
-|---------|----------|---------------|
-| Bún chả | 1        | 45000         |
-| Nem rán | 2        | 40000         |
+| name          | quantity | price_at_time |
+|---------------|----------|---------------|
+| Bún chả       | 1        | 45000         |
+| Nem rán       | 2        | 40000         |
 
 
-| customer_id | name          | order_date | total_amount | status        |
-|-------------|---------------|------------|--------------|---------------|
+| customer_id | name          | order_date | total_amount | status     |
+|-------------|---------------|------------|--------------|------------|
 | 1           | Nguyễn Văn An | 2025-02-24 | 12500        | Đã thanh toán |
 
 ### 8.2. Lấy tất cả khách hàng
@@ -646,7 +646,7 @@ SELECT dbo.CalculateDishRevenue(
 **Kết quả:**
 | Total Revenue |
 |---------------|
-| 100000.00     |
+|   100000.00   |
 
 ### 8.6. Lấy số lượng đơn hàng của khách hàng 'Trần Thị Bình'
 
@@ -673,7 +673,7 @@ SELECT dbo.GetAverageOrderValue() AS 'Average Order Value';
 **Kết quả:**
 | Average Order Value |
 |---------------------|
-| 70000.00            |
+| 70000.00           |
 
 
 ### 8.8. Lấy món ăn phổ biến nhất
@@ -703,6 +703,6 @@ SELECT dbo.CalculateCategoryRevenue(
 **Kết quả:**
 | Total Revenue |
 |---------------|
-| 2435000.00    |
+|  2435000.00   |
 
 
